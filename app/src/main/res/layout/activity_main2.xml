@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FF1744"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="sans-serif-thin"
+            android:text="Como cuidar da sua pele seca em 5 passos:"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#ffffff"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-thin"
+            android:text="- Desenvolvido por Georgia Demas de Araujo -"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#ffffff"
+            android:textSize="13sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/laranja" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="sans-serif-bold"
+                    android:text="1"
+                    android:textAllCaps="true"
+                    android:textColor="#ffffff"
+                    android:textSize="30sp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"/>
+
+            </RelativeLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="1dp"
+                android:fontFamily="sans-serif-bold"
+                android:text="CUIDADOS NO BANHO:"
+                android:textAllCaps="true"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/shower" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-thin"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Cuidado com a água quente:
+A água quente é prejudicial para qualquer tipo de pele, mas especialmente para as secas, pois tira o óleo natual da pele. Não esfregue a pele:   É indicado por dermatologistas que pessoas com pele seca não usem buchas ou esfoliantes para não irritar a pele.
+
+Sabonetes:
+O uso de sabotes é muito importante. Para as peles secas é indicado produtos com base de glicerina. Evite usar produtoscom base de enxofre e ácido salicílico."
+            android:textColor="#ffffff"
+            android:textSize="15sp" />
+
+        <!-- 2 HIDRATAÇÃO -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/laranja" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="sans-serif-bold"
+                    android:text="2"
+                    android:textAllCaps="true"
+                    android:textColor="#ffffff"
+                    android:textSize="30sp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"/>
+
+            </RelativeLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="1dp"
+                android:fontFamily="sans-serif-bold"
+                android:text="HIDRATAÇÃO:"
+                android:textAllCaps="true"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/hidratacao" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-thin"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Não precisa nem esperar sua pele secar para aplicar o hidratante, use logo após o banho, ele se torna ainda mais eficaz.Os hisdratantes devem ser aplicados diariamente.Para o rosto é indicado que se use o hisdratante toda manhã e noite, sem excessos, claro. Use água fria para auxiliar e se possível, gelada. Prefira também produtos a base de glicerina.
+"
+            android:textColor="#ffffff"
+            android:textSize="15sp" />
+
+        <!-- 3 MAQUIAGEM-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/laranja" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="sans-serif-bold"
+                    android:text="3"
+                    android:textAllCaps="true"
+                    android:textColor="#ffffff"
+                    android:textSize="30sp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"/>
+
+            </RelativeLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="1dp"
+                android:fontFamily="sans-serif-bold"
+                android:text="MAQUIAGEM"
+                android:textAllCaps="true"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/maquiagem" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-thin"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text= "Para as pessoas que possuem pele seca e usam maquiagem, é extremamente necessário começar seguindo os passos anteriores,isso vai evitar que a maquiagem craquele e dê um ar envelhecido para pele.É indicado para pessoas com pele seca o uso de primes hidratantes e o uso dos BB Cream's, pois estes ajudam na hisdratação,contem ativos em sua composição, fator de proteção e ao mesmo tempo que cumprem suas funções como maquiagem ajudam a tratar essa pela problemática.É importante também procurar produtos específicos para o tipo de pele seco, assim as chances dele conter uma composição favorável é muito maior.Produtos líquidos e pastosos são mais eficazes do que os pós.Lembre-se sempre de tirar a maquiagem após o uso e para isso prefira os demaquilantes em creme."
+            android:textColor="#ffffff"
+            android:textSize="15sp" />
+
+        <!-- 4 produtos -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/laranja" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="sans-serif-bold"
+                    android:text="4"
+                    android:textAllCaps="true"
+                    android:textColor="#ffffff"
+                    android:textSize="30sp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"/>
+
+            </RelativeLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="1dp"
+                android:fontFamily="sans-serif-bold"
+                android:text="ESCOLHA DE PRODUTOS:"
+                android:textAllCaps="true"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/produtos" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-thin"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text= "É importantíssimo para pessoas com pele seca saber escolher os produtos específicos para sua pele. A maioria dos produtos e cométicos possuem sua indicação na embalagem, escolha sempre os para pele seca ou muito seca. Isso já irá contribuir bastante para a saúde da sua pele. Evite produtos que prometem reduzir oleosidade, e os produtos com álcool ou ácidos.
+"
+            android:textColor="#ffffff"
+            android:textSize="15sp" />
+
+        <!-- 5 MEDICO-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/laranja" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="sans-serif-bold"
+                    android:text="5"
+                    android:textAllCaps="true"
+                    android:textColor="#ffffff"
+                    android:textSize="30sp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"/>
+
+            </RelativeLayout>
+
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="1dp"
+                android:fontFamily="sans-serif-bold"
+                android:text="CONSULTE UM DERMATOLOGISTA:"
+                android:textAllCaps="true"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/medico" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-thin"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text= "Todas as dicas acima são úteis, mas é necessário e primordial que você que tem uma pele com algum tipo de particularidade consulte um médico dermatologista. Ele irá indicar o melhor tipo de tratamento para você e auxilia-lo(a) nos cuidados para uma pele mais saudável."
+            android:textColor="#ffffff"
+            android:textSize="15sp" />
+    </LinearLayout>
+</ScrollView>
